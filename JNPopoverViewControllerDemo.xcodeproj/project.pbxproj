@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6328C481CF00EAD00944BAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6328C471CF00EAD00944BAF /* main.m */; };
+		B6328C4B1CF00EAD00944BAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6328C4A1CF00EAD00944BAF /* AppDelegate.m */; };
+		B6328C4E1CF00EAD00944BAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6328C4D1CF00EAD00944BAF /* ViewController.m */; };
+		B6328C511CF00EAD00944BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6328C4F1CF00EAD00944BAF /* Main.storyboard */; };
+		B6328C531CF00EAD00944BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6328C521CF00EAD00944BAF /* Assets.xcassets */; };
+		B6328C561CF00EAD00944BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6328C541CF00EAD00944BAF /* LaunchScreen.storyboard */; };
+		B69B9CDD1CF06CCA009F3ADE /* JNPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69B9CDC1CF06CCA009F3ADE /* JNPopoverViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6328C431CF00EAD00944BAF /* JNPopoverViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JNPopoverViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6328C471CF00EAD00944BAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6328C491CF00EAD00944BAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6328C4A1CF00EAD00944BAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6328C4C1CF00EAD00944BAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6328C4D1CF00EAD00944BAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6328C501CF00EAD00944BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6328C521CF00EAD00944BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6328C551CF00EAD00944BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6328C571CF00EAD00944BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B69B9CDB1CF06CCA009F3ADE /* JNPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNPopoverViewController.h; sourceTree = "<group>"; };
+		B69B9CDC1CF06CCA009F3ADE /* JNPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNPopoverViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6328C401CF00EAD00944BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6328C3A1CF00EAD00944BAF = {
+			isa = PBXGroup;
+			children = (
+				B6328C451CF00EAD00944BAF /* JNPopoverViewControllerDemo */,
+				B6328C441CF00EAD00944BAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6328C441CF00EAD00944BAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6328C431CF00EAD00944BAF /* JNPopoverViewControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6328C451CF00EAD00944BAF /* JNPopoverViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B69B9CDA1CF06CCA009F3ADE /* JNPopoverViewController */,
+				B6328C491CF00EAD00944BAF /* AppDelegate.h */,
+				B6328C4A1CF00EAD00944BAF /* AppDelegate.m */,
+				B6328C4C1CF00EAD00944BAF /* ViewController.h */,
+				B6328C4D1CF00EAD00944BAF /* ViewController.m */,
+				B6328C4F1CF00EAD00944BAF /* Main.storyboard */,
+				B6328C521CF00EAD00944BAF /* Assets.xcassets */,
+				B6328C541CF00EAD00944BAF /* LaunchScreen.storyboard */,
+				B6328C571CF00EAD00944BAF /* Info.plist */,
+				B6328C461CF00EAD00944BAF /* Supporting Files */,
+			);
+			path = JNPopoverViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		B6328C461CF00EAD00944BAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6328C471CF00EAD00944BAF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B69B9CDA1CF06CCA009F3ADE /* JNPopoverViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B69B9CDB1CF06CCA009F3ADE /* JNPopoverViewController.h */,
+				B69B9CDC1CF06CCA009F3ADE /* JNPopoverViewController.m */,
+			);
+			path = JNPopoverViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6328C421CF00EAD00944BAF /* JNPopoverViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6328C5A1CF00EAD00944BAF /* Build configuration list for PBXNativeTarget "JNPopoverViewControllerDemo" */;
+			buildPhases = (
+				B6328C3F1CF00EAD00944BAF /* Sources */,
+				B6328C401CF00EAD00944BAF /* Frameworks */,
+				B6328C411CF00EAD00944BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JNPopoverViewControllerDemo;
+			productName = JNPopoverViewControllerDemo;
+			productReference = B6328C431CF00EAD00944BAF /* JNPopoverViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6328C3B1CF00EAD00944BAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Injoinow;
+				TargetAttributes = {
+					B6328C421CF00EAD00944BAF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B6328C3E1CF00EAD00944BAF /* Build configuration list for PBXProject "JNPopoverViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6328C3A1CF00EAD00944BAF;
+			productRefGroup = B6328C441CF00EAD00944BAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6328C421CF00EAD00944BAF /* JNPopoverViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6328C411CF00EAD00944BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6328C561CF00EAD00944BAF /* LaunchScreen.storyboard in Resources */,
+				B6328C531CF00EAD00944BAF /* Assets.xcassets in Resources */,
+				B6328C511CF00EAD00944BAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6328C3F1CF00EAD00944BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6328C4E1CF00EAD00944BAF /* ViewController.m in Sources */,
+				B69B9CDD1CF06CCA009F3ADE /* JNPopoverViewController.m in Sources */,
+				B6328C4B1CF00EAD00944BAF /* AppDelegate.m in Sources */,
+				B6328C481CF00EAD00944BAF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6328C4F1CF00EAD00944BAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6328C501CF00EAD00944BAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6328C541CF00EAD00944BAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6328C551CF00EAD00944BAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6328C581CF00EAD00944BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6328C591CF00EAD00944BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6328C5B1CF00EAD00944BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JNPopoverViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.injoinow.JNPopoverViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6328C5C1CF00EAD00944BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JNPopoverViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.injoinow.JNPopoverViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6328C3E1CF00EAD00944BAF /* Build configuration list for PBXProject "JNPopoverViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6328C581CF00EAD00944BAF /* Debug */,
+				B6328C591CF00EAD00944BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6328C5A1CF00EAD00944BAF /* Build configuration list for PBXNativeTarget "JNPopoverViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6328C5B1CF00EAD00944BAF /* Debug */,
+				B6328C5C1CF00EAD00944BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6328C3B1CF00EAD00944BAF /* Project object */;
+}
