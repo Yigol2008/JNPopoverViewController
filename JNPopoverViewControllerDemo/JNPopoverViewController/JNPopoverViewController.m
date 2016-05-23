@@ -101,8 +101,6 @@ static CGFloat const kPreferredContentWidth = 100;
                                                           attribute:NSLayoutAttributeBottom
                                                          multiplier:1
                                                            constant:0]];
-    
-    
     self.tableView = tab;
 }
 
